@@ -131,7 +131,11 @@ font-family: var(--primary-font);
 }
 
 .menu-link.current::after{
-   background-color: var(--color-ocean);
+  background-color: var(--color-ocean);
+}
+
+.menu-link.current{
+    color: var(--color-ocean);
 }
 
 .contact-link{
